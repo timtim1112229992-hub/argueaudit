@@ -1,0 +1,10 @@
+# Normalise line endings in the repository to LF, whatever the checkout looks
+# like locally. Without this, every file touched on Windows comes back as a
+# whole-file modification, and a diff of four hundred changed lines that turn
+# out to be carriage returns is a diff nobody reads. A release gate that people
+# have learnt to skim is not a gate.
+* text=auto eol=lf
+
+# The synthetic corpus is the one data format the repository carries, and it is
+# text by intent, so that a reader can inspect it in a diff.
+*.csv text eol=lf
