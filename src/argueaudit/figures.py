@@ -86,7 +86,7 @@ def fig_6_2_component_contrast(census: list[dict], out: Path) -> Path:
     if zero is not None:
         i = labels.index(zero["component"])
         hi = zero["substantive_ci"][1]
-        ax.annotate(f'rule of three\nupper bound '
+        ax.annotate(f'exact one-sided\nupper bound '
                     f'{zero["substantive_upper_rule_of_three"]:.3f}',
                     xy=(x[i] + .19, hi), xytext=(x[i] - .46, hi + .22),
                     fontsize=7, color=WARM, ha="left",

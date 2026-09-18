@@ -48,6 +48,14 @@ def rule_of_three(n: int, conf: float | None = None) -> float:
 
     Reported so that an absence carries a quantified precision instead of being
     stated as a bare zero.
+
+    The value returned is the exact one-sided bound, 1 - (1 - conf) ** (1 / n).
+    The familiar rule of three, 3 / n, is the large-sample approximation to it
+    and the two part company at the sizes this package works with: for ten units
+    the approximation gives 0.300 against an exact 0.259. The exact form is used
+    because the approximation is anti-conservative here, and the function keeps
+    its established name so that the results schema stays stable. Anything
+    reporting this quantity should describe it as the exact bound.
     """
     conf = SETTINGS.confidence if conf is None else conf
     return float(1 - (1 - conf) ** (1 / n)) if n else float("nan")
