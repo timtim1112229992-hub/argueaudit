@@ -1,0 +1,45 @@
+{
+ "columns": {
+  "decisions": [
+   "id",
+   "group_id",
+   "stage",
+   "action",
+   "trigger_source",
+   "created_at"
+  ],
+  "groups": [
+   "id",
+   "group_number",
+   "current_stage",
+   "status",
+   "created_at"
+  ],
+  "progress": [
+   "group_id",
+   "group_number",
+   "completed_stage_count",
+   "avg_completion_pct"
+  ],
+  "qa": [
+   "id",
+   "group_id",
+   "stage",
+   "on_topic",
+   "source",
+   "created_at"
+  ],
+  "submissions": [
+   "id",
+   "group_id",
+   "stage",
+   "stage_key",
+   "is_completed",
+   "completion_rate",
+   "completed_at",
+   "updated_at",
+   "form_data_json"
+  ]
+ },
+ "schema": "argueaudit/columnmap/1"
+}

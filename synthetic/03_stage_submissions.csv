@@ -1,0 +1,71 @@
+id,group_id,stage,stage_key,is_completed,completion_rate,completed_at,updated_at,form_data_json
+1,g01,0,pretest,True,0.85,2026-01-01T10:00:00,2026-01-01T10:05:00,{}
+2,g01,1,observe,True,0.69,2026-01-02T10:00:00,2026-01-02T10:05:00,"{""soilRecords"": ""loam""}"
+3,g01,2,guess,True,0.72,2026-01-03T10:00:00,2026-01-03T10:05:00,"{""guess"": ""the water held together before the rest"", ""reason"": ""the third sample clumped quickly and that means the first sample settled""}"
+4,g01,3,sticky_exp,True,0.85,2026-01-04T10:00:00,2026-01-04T10:05:00,"{""finding"": ""the water held together before the rest"", ""findingReason"": ""the third sample ran through in about a minute which shows the jar clumped""}"
+5,g01,4,drain_exp,True,0.61,2026-01-05T10:00:00,2026-01-05T10:05:00,"{""guessCompare"": ""the water spread quickly and that means the fourth sample drained""}"
+6,g01,5,evidence,True,0.88,2026-01-06T10:00:00,2026-01-06T10:05:00,"{""seeBox"": ""the first sample spread more than the others"", ""thinkBox"": ""the water ran through more than the others"", ""explain"": ""the fourth sample settled slowly and that means the first sample drained"", ""linkedEvidence"": ""yes"", ""evidenceStrength"": ""strong"", ""evidenceSource"": ""our test""}"
+7,g01,6,conclusion,True,0.93,2026-01-07T10:00:00,2026-01-07T10:05:00,"{""after"": ""We thought ____ and we found ____"", ""changeReason"": ""Our idea changed after we tested it""}"
+8,g02,0,pretest,True,0.66,2026-01-01T10:00:00,2026-01-01T10:05:00,{}
+9,g02,1,observe,True,0.95,2026-01-02T10:00:00,2026-01-02T10:05:00,"{""soilRecords"": ""sandy""}"
+10,g02,2,guess,True,0.64,2026-01-03T10:00:00,2026-01-03T10:05:00,"{""guess"": ""the jar spread after we poured""}"
+11,g02,3,sticky_exp,True,0.74,2026-01-04T10:00:00,2026-01-04T10:05:00,"{""finding"": ""the fourth sample clumped in about a minute""}"
+12,g02,4,drain_exp,True,0.99,2026-01-05T10:00:00,2026-01-05T10:05:00,"{""finding"": ""the first sample drained in about a minute"", ""guessCompare"": ""the third sample held together quickly so the water settled""}"
+13,g02,5,evidence,True,0.99,2026-01-06T10:00:00,2026-01-06T10:05:00,"{""seeBox"": ""the third sample settled in about a minute"", ""thinkBox"": ""the fourth sample clumped before the rest"", ""explain"": ""the first sample settled slowly because the third sample clumped"", ""linkedEvidence"": ""yes"", ""evidenceStrength"": ""strong"", ""evidenceSource"": ""our test""}"
+14,g02,6,conclusion,True,0.94,2026-01-07T10:00:00,2026-01-07T10:05:00,"{""after"": ""We thought the first sample drained slowly and we found the third sample spread quickly"", ""changeReason"": ""Our idea changed after we tested it""}"
+15,g03,0,pretest,True,0.98,2026-01-01T10:00:00,2026-01-01T10:05:00,{}
+16,g03,1,observe,True,0.83,2026-01-02T10:00:00,2026-01-02T10:05:00,"{""soilRecords"": ""loam""}"
+17,g03,2,guess,True,0.83,2026-01-03T10:00:00,2026-01-03T10:05:00,"{""guess"": ""the fourth sample held together after we poured"", ""reason"": ""the jar drained slowly so the jar spread""}"
+18,g03,3,sticky_exp,True,0.82,2026-01-04T10:00:00,2026-01-04T10:05:00,"{""finding"": ""the fourth sample spread more than the others"", ""findingReason"": ""the water drained before the rest and that means the fourth sample settled""}"
+19,g03,4,drain_exp,True,0.86,2026-01-05T10:00:00,2026-01-05T10:05:00,"{""finding"": ""the third sample clumped quickly"", ""guessCompare"": ""the first sample clumped quickly and that means the first sample settled""}"
+20,g03,5,evidence,True,0.74,2026-01-06T10:00:00,2026-01-06T10:05:00,"{""seeBox"": ""the jar drained in about a minute"", ""thinkBox"": ""the water settled quickly"", ""linkedEvidence"": ""yes"", ""evidenceStrength"": ""strong"", ""evidenceSource"": ""our test""}"
+21,g03,6,conclusion,True,0.9,2026-01-07T10:00:00,2026-01-07T10:05:00,"{""after"": ""We thought the fourth sample clumped before the rest and we found the jar drained more than the others"", ""changeReason"": ""Our idea changed after we tested it""}"
+22,g04,0,pretest,True,0.92,2026-01-01T10:00:00,2026-01-01T10:05:00,{}
+23,g04,1,observe,True,0.77,2026-01-02T10:00:00,2026-01-02T10:05:00,"{""soilRecords"": ""mixed""}"
+24,g04,2,guess,True,0.81,2026-01-03T10:00:00,2026-01-03T10:05:00,"{""guess"": ""the jar drained before the rest""}"
+25,g04,3,sticky_exp,True,0.74,2026-01-04T10:00:00,2026-01-04T10:05:00,"{""findingReason"": ""the fourth sample held together slowly and that means the third sample drained""}"
+26,g04,4,drain_exp,True,0.78,2026-01-05T10:00:00,2026-01-05T10:05:00,"{""guessCompare"": ""the second sample spread more than the others because the second sample drained""}"
+27,g04,5,evidence,True,0.9,2026-01-06T10:00:00,2026-01-06T10:05:00,"{""thinkBox"": ""the jar spread in about a minute"", ""linkedEvidence"": ""yes"", ""evidenceStrength"": ""strong"", ""evidenceSource"": ""our test""}"
+28,g04,6,conclusion,True,0.77,2026-01-07T10:00:00,2026-01-07T10:05:00,"{""after"": ""We thought the jar spread more than the others and we found the third sample clumped before the rest"", ""changeReason"": ""Our idea changed after we tested it""}"
+29,g05,0,pretest,True,0.81,2026-01-01T10:00:00,2026-01-01T10:05:00,{}
+30,g05,1,observe,True,0.92,2026-01-02T10:00:00,2026-01-02T10:05:00,"{""soilRecords"": ""loam""}"
+31,g05,2,guess,True,0.99,2026-01-03T10:00:00,2026-01-03T10:05:00,"{""guess"": ""the second sample held together after we poured""}"
+32,g05,3,sticky_exp,True,0.64,2026-01-04T10:00:00,2026-01-04T10:05:00,"{""finding"": ""the fourth sample settled after we poured"", ""findingReason"": ""the second sample settled slowly so the jar clumped""}"
+33,g05,4,drain_exp,True,0.98,2026-01-05T10:00:00,2026-01-05T10:05:00,"{""guessCompare"": ""the jar held together in about a minute so the fourth sample settled""}"
+34,g05,5,evidence,True,0.65,2026-01-06T10:00:00,2026-01-06T10:05:00,"{""seeBox"": ""the second sample held together in about a minute"", ""thinkBox"": ""the first sample held together after we poured"", ""explain"": ""the first sample drained after we poured which shows the water spread"", ""linkedEvidence"": ""yes"", ""evidenceStrength"": ""strong"", ""evidenceSource"": ""our test""}"
+35,g05,6,conclusion,True,0.95,2026-01-07T10:00:00,2026-01-07T10:05:00,"{""changeReason"": ""Our idea changed after we tested it""}"
+36,g06,0,pretest,True,0.81,2026-01-01T10:00:00,2026-01-01T10:05:00,{}
+37,g06,1,observe,True,0.62,2026-01-02T10:00:00,2026-01-02T10:05:00,"{""soilRecords"": ""loam""}"
+38,g06,2,guess,True,0.84,2026-01-03T10:00:00,2026-01-03T10:05:00,"{""guess"": ""the third sample drained slowly"", ""reason"": ""the second sample spread slowly and that means the fourth sample held together""}"
+39,g06,3,sticky_exp,True,0.92,2026-01-04T10:00:00,2026-01-04T10:05:00,"{""finding"": ""the first sample drained after we poured"", ""findingReason"": ""the third sample held together in about a minute and that means the jar ran through""}"
+40,g06,4,drain_exp,True,0.68,2026-01-05T10:00:00,2026-01-05T10:05:00,{}
+41,g06,5,evidence,True,0.62,2026-01-06T10:00:00,2026-01-06T10:05:00,"{""seeBox"": ""the third sample drained slowly"", ""linkedEvidence"": ""yes"", ""evidenceStrength"": ""strong"", ""evidenceSource"": ""our test""}"
+42,g06,6,conclusion,True,0.85,2026-01-07T10:00:00,2026-01-07T10:05:00,"{""after"": ""We thought ____ and we found ____"", ""changeReason"": ""Our idea changed after we tested it""}"
+43,g07,0,pretest,True,0.92,2026-01-01T10:00:00,2026-01-01T10:05:00,{}
+44,g07,1,observe,True,0.95,2026-01-02T10:00:00,2026-01-02T10:05:00,"{""soilRecords"": ""mixed""}"
+45,g07,2,guess,True,0.68,2026-01-03T10:00:00,2026-01-03T10:05:00,"{""guess"": ""the second sample drained after we poured""}"
+46,g07,3,sticky_exp,True,0.64,2026-01-04T10:00:00,2026-01-04T10:05:00,"{""finding"": ""the water settled in about a minute""}"
+47,g07,4,drain_exp,True,0.93,2026-01-05T10:00:00,2026-01-05T10:05:00,{}
+48,g07,5,evidence,True,0.83,2026-01-06T10:00:00,2026-01-06T10:05:00,"{""seeBox"": ""the third sample held together quickly"", ""thinkBox"": ""the water settled before the rest"", ""explain"": ""the third sample drained more than the others which shows the fourth sample held together"", ""linkedEvidence"": ""yes"", ""evidenceStrength"": ""strong"", ""evidenceSource"": ""our test""}"
+49,g07,6,conclusion,True,0.7,2026-01-07T10:00:00,2026-01-07T10:05:00,"{""changeReason"": ""Our idea changed after we tested it""}"
+50,g08,0,pretest,True,0.78,2026-01-01T10:00:00,2026-01-01T10:05:00,{}
+51,g08,1,observe,True,0.75,2026-01-02T10:00:00,2026-01-02T10:05:00,"{""soilRecords"": ""loam""}"
+52,g08,2,guess,True,0.75,2026-01-03T10:00:00,2026-01-03T10:05:00,"{""guess"": ""the first sample held together in about a minute""}"
+53,g08,3,sticky_exp,True,0.9,2026-01-04T10:00:00,2026-01-04T10:05:00,"{""finding"": ""the fourth sample ran through slowly"", ""findingReason"": ""the second sample held together slowly and that means the third sample ran through""}"
+54,g08,4,drain_exp,True,0.65,2026-01-05T10:00:00,2026-01-05T10:05:00,"{""finding"": ""the first sample spread slowly"", ""guessCompare"": ""the second sample clumped before the rest because the fourth sample drained""}"
+55,g08,5,evidence,True,0.67,2026-01-06T10:00:00,2026-01-06T10:05:00,"{""seeBox"": ""the water spread after we poured"", ""thinkBox"": ""the second sample clumped after we poured"", ""linkedEvidence"": ""yes"", ""evidenceStrength"": ""strong"", ""evidenceSource"": ""our test""}"
+56,g08,6,conclusion,True,0.91,2026-01-07T10:00:00,2026-01-07T10:05:00,"{""after"": ""We thought the jar settled slowly and we found the water settled quickly"", ""changeReason"": ""Our idea changed after we tested it""}"
+57,g09,0,pretest,True,0.93,2026-01-01T10:00:00,2026-01-01T10:05:00,{}
+58,g09,1,observe,True,0.63,2026-01-02T10:00:00,2026-01-02T10:05:00,"{""soilRecords"": ""clay""}"
+59,g09,2,guess,True,0.96,2026-01-03T10:00:00,2026-01-03T10:05:00,"{""guess"": ""the third sample spread after we poured"", ""reason"": ""the second sample held together after we poured which shows the second sample clumped""}"
+60,g09,3,sticky_exp,True,0.89,2026-01-04T10:00:00,2026-01-04T10:05:00,"{""finding"": ""the jar held together quickly""}"
+61,g09,4,drain_exp,True,0.94,2026-01-05T10:00:00,2026-01-05T10:05:00,{}
+62,g09,5,evidence,True,0.89,2026-01-06T10:00:00,2026-01-06T10:05:00,"{""seeBox"": ""the water ran through more than the others"", ""thinkBox"": ""the second sample held together before the rest"", ""linkedEvidence"": ""yes"", ""evidenceStrength"": ""strong"", ""evidenceSource"": ""our test""}"
+63,g09,6,conclusion,True,0.61,2026-01-07T10:00:00,2026-01-07T10:05:00,"{""after"": ""We thought ____ and we found ____"", ""changeReason"": ""Our idea changed after we tested it""}"
+64,g10,0,pretest,True,0.94,2026-01-01T10:00:00,2026-01-01T10:05:00,{}
+65,g10,1,observe,True,0.76,2026-01-02T10:00:00,2026-01-02T10:05:00,"{""soilRecords"": ""mixed""}"
+66,g10,2,guess,True,0.97,2026-01-03T10:00:00,2026-01-03T10:05:00,"{""guess"": ""the first sample clumped after we poured""}"
+67,g10,3,sticky_exp,True,1.0,2026-01-04T10:00:00,2026-01-04T10:05:00,"{""finding"": ""the third sample clumped quickly""}"
+68,g10,4,drain_exp,True,0.65,2026-01-05T10:00:00,2026-01-05T10:05:00,"{""finding"": ""the third sample clumped before the rest""}"
+69,g10,5,evidence,True,0.69,2026-01-06T10:00:00,2026-01-06T10:05:00,"{""seeBox"": ""the water clumped before the rest"", ""thinkBox"": ""the second sample held together in about a minute"", ""explain"": ""the fourth sample spread after we poured and that means the second sample settled"", ""linkedEvidence"": ""yes"", ""evidenceStrength"": ""strong"", ""evidenceSource"": ""our test""}"
+70,g10,6,conclusion,True,0.61,2026-01-07T10:00:00,2026-01-07T10:05:00,"{""after"": ""We thought ____ and we found ____"", ""changeReason"": ""Our idea changed after we tested it""}"

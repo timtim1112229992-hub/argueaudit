@@ -1,0 +1,84 @@
+# Release policy: source code, configuration, environment specifications,
+# synthetic demonstration data and run provenance may be published. Nothing else.
+# Everything below is excluded by directory or by type, and the guard tests in
+# tests/test_release_guard.py fail the build if any of it is ever staged.
+
+# Restricted corpora, in every spelling this project has used
+data/
+raw/
+raw_data/
+original_data/
+input/
+inputs/
+corpus/
+restricted/
+
+# Anything the analysis produces
+outputs/
+output/
+results/
+figures/
+figs/
+plots/
+artifacts/
+artefacts/
+models/
+checkpoints/
+logs/
+
+# Tabular and binary data types anywhere in the tree, except the synthetic corpus
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.sav
+*.dta
+*.pkl
+*.pickle
+*.db
+*.sqlite
+*.sqlite3
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.joblib
+*.onnx
+*.pt
+*.ckpt
+*.csv
+!synthetic/*.csv
+
+# Rendered assets and documents
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.eps
+*.tif
+*.tiff
+*.pdf
+*.docx
+*.doc
+*.pptx
+
+# Local environment and editor state
+.env
+.env.*
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.egg-info/
+build/
+dist/

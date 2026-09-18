@@ -1,0 +1,141 @@
+{
+ "code": {
+  "branch": null,
+  "commit": null,
+  "dirty": false
+ },
+ "column_map": {
+  "decisions": [
+   "id",
+   "group_id",
+   "stage",
+   "action",
+   "trigger_source",
+   "created_at"
+  ],
+  "groups": [
+   "id",
+   "group_number",
+   "current_stage",
+   "status",
+   "created_at"
+  ],
+  "progress": [
+   "group_id",
+   "group_number",
+   "completed_stage_count",
+   "avg_completion_pct"
+  ],
+  "qa": [
+   "id",
+   "group_id",
+   "stage",
+   "on_topic",
+   "source",
+   "created_at"
+  ],
+  "submissions": [
+   "id",
+   "group_id",
+   "stage",
+   "stage_key",
+   "is_completed",
+   "completion_rate",
+   "completed_at",
+   "updated_at",
+   "form_data_json"
+  ]
+ },
+ "counts": {
+  "decisions.analytic": 281,
+  "decisions.read": 316,
+  "entries.adjudicated": 11,
+  "entries.coded": 120,
+  "entries.instrument_supplied": 9,
+  "fields.derived": 120,
+  "fields.expected": 120,
+  "groups.read": 12,
+  "progress.read": 12,
+  "qa.analytic": 37,
+  "qa.read": 60,
+  "submissions.analytic": 70,
+  "submissions.excluded_reserve": 13,
+  "submissions.joined": 83,
+  "submissions.read": 83
+ },
+ "environment": {
+  "implementation": "CPython",
+  "packages": {
+   "matplotlib": "3.10.8",
+   "numpy": "2.4.6",
+   "openpyxl": "3.1.5",
+   "pandas": "2.3.3",
+   "scipy": "1.17.1",
+   "statsmodels": "0.14.6"
+  },
+  "python": "3.13.9"
+ },
+ "generated_utc": "2026-09-18T10:28:47+00:00",
+ "notes": "Two procedures registered in the analysis plan are reported as non-estimable rather than substituted. The pipeline records which, and on what grounds, in the results payload it writes alongside this manifest.",
+ "schema": "argueaudit/provenance/1",
+ "settings": {
+  "analytic_groups": 10,
+  "bootstrap_replicates": 10000,
+  "confidence": 0.95,
+  "min_content_chars": 2,
+  "min_propositional_chars": 4,
+  "n_stages": 7,
+  "permutation_replicates": 10000,
+  "ruleset_version": "argueaudit/rules/1.0.0",
+  "seed": 20260625,
+  "threshold_sweep": [
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    4,
+    8
+   ],
+   [
+    6,
+    12
+   ]
+  ]
+ },
+ "source": "restricted",
+ "tables": {
+  "decisions": {
+   "aggregate_sha256": "2ad68b42bcd3b211eeeea96480ac375329ebc23955120d1104a52e29b84c28ca",
+   "n_records": 316
+  },
+  "groups": {
+   "aggregate_sha256": "d2c1ece6a108ab399055e7e99c7a5d7e7415b123a414e96140c9fe3113636994",
+   "n_records": 12
+  },
+  "progress": {
+   "aggregate_sha256": "6a1fc1a38836a9cbc6389c213960ab882008c28978469c4446de622effefc48a",
+   "n_records": 12
+  },
+  "qa": {
+   "aggregate_sha256": "c29a492cc6de9de7567259a5a21c50dbd2c7b05be1019e2e594008e59b84167d",
+   "n_records": 60
+  },
+  "submissions": {
+   "aggregate_sha256": "37d323a703800cad37f5bc8e65cc7b1ff25a5ab42edc559b52538181ffac519d",
+   "n_records": 83
+  }
+ }
+}
